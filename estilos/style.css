@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* paleta de cores */
+
+:root{
+    --cor1: #050505;
+    --cor2: #F4F4F9;
+    --cor3: #3E6680;
+    --cor4: #027BCE;
+    --cor5: #0496ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font: 1em Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-color: var(--cor3);
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background-color: var(--cor2);
+    color: var(--cor1);
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.467);
+}
+
+#imagem{
+    background: var(--cor5) url(../imagens/img.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+#formulario{
+    padding: 10px;
+}
