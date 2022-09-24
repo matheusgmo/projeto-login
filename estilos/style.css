@@ -48,7 +48,7 @@ main{
     background: var(--cor5) url(../imagens/img.jpg) no-repeat;
     background-size: cover;
     display: flex;
-    height: 180px;
+    height: 200px;
 }
 
 #formulario{
